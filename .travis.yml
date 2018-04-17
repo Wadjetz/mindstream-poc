@@ -5,7 +5,7 @@ rust:
     - 1.25.0
 
 install:
-    - npm install
+    - cd client && npm install
 
 cache: cargo
 cache:

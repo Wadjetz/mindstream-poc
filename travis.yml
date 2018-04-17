@@ -1,7 +1,15 @@
 language: rust
-  rust:
+language: node_js
+
+rust:
     - 1.25.0
-  cache: cargo
-  script:
+
+cache: cargo
+cache:
+  directories:
+    - "node_modules"
+
+script:
+    - cd client && npm run build
     - cargo build --verbose --all
     - cargo test --verbose --all

@@ -33,7 +33,7 @@ chrono = "0.4.0"
 lazy_static = "1.0.0"
 
 jsonwebtoken = "2.0.3"
-bcrypt = "0.1.5"
+bcrypt = "0.2.0"
 rust-crypto = "0.2.36"
 
 feed-rs = "0.1.3"

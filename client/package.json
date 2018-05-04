@@ -36,7 +36,7 @@
     "redux-devtools": "3.4.1",
     "redux-observable": "0.18.0",
     "redux-persist": "4.10.1",
-    "rxjs": "5.5.10"
+    "rxjs": "6.1.0"
   },
   "devDependencies": {
     "@types/es6-shim": "0.31.35",
